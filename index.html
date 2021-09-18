@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <!-- <style>
+        body {
+            color : orange; 
+        }
+    </style> -->
+    <!-- Third way of doing css -->
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <h1 >Welcome to Mayur's Component Library</h1>
+    <!-- style="color:red; background: #000;" -->
+    <p>I am trying to create a Library that will help me make all my projects good and consistent.</p>
+    
+    <hr>
+    <h2>@typography</h2>
+    <h1>This is h1 Heading</h1>
+    <h2>This is h2 Heading..</h2>
+    This is a Simple text<br>
+    This is an example of <strong>Strong</strong> text.
+    <p>This is a Paragraph</p>
+    <small>This is Small text</small>
+    
+    <hr>
+    <h2>@Containers</h2>
+    <h3>Fluid Container</h3>
+    <div class="container fluid-container">This is a normal fluid container. It will go end to end of the page.</div>
+    <h3>Centered Container</h3>
+    <div class="container centered-container">This is a centered fluid container. It will go till a specified width.</div>
+    
+    <hr>
+    <h2>@Links</h2>
+    <a class="link primary-link" href = "https://mayurchawla.netlify.app/">Primary Link Text</a>
+    <a class="link secondary-link" href = "https://mayurchawla.netlify.app/">Secondary Link Text</a>
+    
+    <hr>
+    <h2>@Lists</h2>
+    <h3>Unorderd List</h3>
+    <p>This List will not have the bullets.</p>
+    <ul class="unolist">
+        <li>UL 1</li>
+        <li>UL 2</li>
+        <li>UL 3</li>
+        <li>UL 4</li>
+        <li>UL 5</li>
+    </ul>
+    <h3>Inline Unorderd Lists</h3>
+    <ul class="unolist">
+        <li class = "list-item-inline">Inline UL 1</li>
+        <li class = "list-item-inline">Inline UL 2</li>
+        <li class = "list-item-inline">Inline UL 3</li>
+    </ul>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>OL 1</li>
+        <li>OL 2</li>
+        <li>OL 3</li>
+        <li>OL 4</li>
+        <li>OL 5</li>
+    </ol>
+    <h3>Reverse Ordered Lists</h3>
+    <ol reversed>
+        <li>OL rev 1</li>
+        <li>OL rev 2</li>
+        <li>OL rev 3</li>
+        <li>OL rev 4</li>
+    </ol>>
+
+    <hr>
+    <h2>@Nav</h2>
+    <nav class="navigation">
+        <div class="nav-brand">iamBrand</div>
+        <ul class="nav-list">
+            <li class="nav-list-items">
+               <a class="nav-list-items-anch nav-link-active" href="/">Home</a> 
+            </li>
+            <li class="nav-list-items">
+                <a class="nav-list-items-anch" href="/">Projects</a> 
+             </li>
+             <li class="nav-list-items">
+                <a class="nav-list-items-anch" href="/">About</a> 
+             </li>
+        </ul>
+    </nav>
+
+    <hr>
+    <h2>@header</h2>
+    <header class="header">
+        <img class="header-hero" src="Images/Hero.svg">
+        <h1 class="header-hero-heading">Heading inside <span class="header-hero-heading-span">Hero</span>.</h1>
+    </header>
+    
+    <hr>
+    <h2>@Sections</h2>
+    <section class="sections">
+    <div class="section-container container centered-container">
+        <h1>White Section</h3>
+        <p>This Sections will have white background. This is a sample piece of text created just created for example purpose of displaying on webpages.</p>
+    </div>
+    </section>
+    <section class="sections bg-gray">
+    <div class="section-container container centered-container">
+        <h1>Grey Section</h3>
+        <p>This Sections will have Grey background. This is a sample piece of text created just created for example purpose of displaying on webpages.</p>
+    </div>
+    </section>
+    
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-div">Footer Division. Footer Text Here.</div>
+        <ul class="footer-social-links unolist">
+            <li class="list-item-inline">
+                <a class="link" href="/">Social 1</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social 2</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social 3</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
